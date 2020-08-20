@@ -17,7 +17,7 @@ class _StackOfFlipCardState extends State<StackOfFlipCard> with SingleTickerProv
   void initState(){
     super.initState();
     _animationController=AnimationController(
-        vsync: this,duration: const Duration(milliseconds: 2000));
+        vsync: this,duration: const Duration(milliseconds: 1500));
   }
 
 
